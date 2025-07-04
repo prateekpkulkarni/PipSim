@@ -15,4 +15,25 @@
 - 💾 Simulated register file and memory
 - 📊 Visualized pipeline timeline using `matplotlib`
 
-... (truncated in code) ...
+---
+
+## 📦 Supported Instructions
+
+- **Arithmetic**: `add`, `sub`, `addi`
+- **Logic**: `and`, `or`, `xor`, `andi`, `ori`, `xori`
+- **Shift**: `sll`, `srl`, `sra`, `slli`, `srli`, `srai`
+- **Control Flow**: `beq`, `bne`, `blt`, `bge`, `jal`, `jalr`
+- **Upper Immediate**: `lui`, `auipc`
+- **(Planned)**: Load/Store (`lw`, `sw`, `lb`, `sb`, `lbu`, `sbu`)
+
+---
+
+## 🖥️ Requirements
+
+- Python 3.8+
+- Jupyter Notebook
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
